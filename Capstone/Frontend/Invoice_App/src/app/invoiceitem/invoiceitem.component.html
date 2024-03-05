@@ -1,0 +1,30 @@
+<div class="table-container">
+<table>
+    <caption class="caption-center">Invoice-Item </caption>
+    <thead>
+        <tr>
+            <th>Item ID</th>
+            <th>Invoice ID</th>
+            <th>Product ID</th>
+            <th>Quantity</th>
+            <th>Unit Price</th>
+            <th>Tax ID</th>
+            <th>Discount</th>
+            <th>LineTotal</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let invoiceitem of invoiceItem">
+            <td>{{invoiceitem.itemID}}</td>
+            <td>{{invoiceitem.invoiceID}}</td>
+            <td>{{invoiceitem.productID}}</td>
+            <td>{{invoiceitem.quantity}}</td>
+            <td>{{invoiceitem.unitPrice}}</td>
+            <td>{{invoiceitem.taxID}}</td>
+            <td>{{invoiceitem.discount}}</td>
+            <td>{{invoiceitem.lineTotal}}</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
