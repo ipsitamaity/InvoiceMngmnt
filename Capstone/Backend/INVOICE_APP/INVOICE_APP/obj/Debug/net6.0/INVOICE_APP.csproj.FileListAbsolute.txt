@@ -36,3 +36,10 @@ C:\Users\IPMAITY\source\repos\INVOICE_APP\INVOICE_APP\obj\Debug\net6.0\INVOICE_A
 C:\Users\IPMAITY\source\repos\INVOICE_APP\INVOICE_APP\obj\Debug\net6.0\INVOICE_APP.genruntimeconfig.cache
 C:\Users\IPMAITY\source\repos\INVOICE_APP\INVOICE_APP\obj\Debug\net6.0\ref\INVOICE_APP.dll
 C:\Users\IPMAITY\source\repos\INVOICE_APP\INVOICE_APP\obj\Debug\net6.0\INVOICE_.6B102728.Up2Date
+C:\Users\IPMAITY\source\repos\INVOICE_APP\INVOICE_APP\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\IPMAITY\source\repos\INVOICE_APP\INVOICE_APP\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\IPMAITY\source\repos\INVOICE_APP\INVOICE_APP\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\IPMAITY\source\repos\INVOICE_APP\INVOICE_APP\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\IPMAITY\source\repos\INVOICE_APP\INVOICE_APP\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\IPMAITY\source\repos\INVOICE_APP\INVOICE_APP\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\IPMAITY\source\repos\INVOICE_APP\INVOICE_APP\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

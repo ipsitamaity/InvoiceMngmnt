@@ -1,0 +1,39 @@
+<app-navbar></app-navbar>
+<h1 class="caption-center">Invoice-Details </h1>
+<div class="table-container">
+    
+<table>
+    <thead>
+        <tr>
+            <th>Invoice ID</th>
+            <th>Invoice Number</th>
+            <th>Invoice Date</th>
+            <th>Vendor ID</th>
+            <th>Customer ID</th>
+            <th>Total Amount</th>
+            <th>Currency ID</th>
+            <th>action</th>
+        </tr>
+    </thead>
+        <tbody>
+            <tr *ngFor="let invoice of invoices; let i = index">
+                <td>{{ invoice.invoiceID }}</td>
+                <td>{{ invoice.invoiceNumber }}</td>
+                <td>{{ invoice.invoiceDate }}</td>
+                <td>{{invoice.vendorID}}</td>
+                <td>{{invoice.customerID}}</td>
+                <td>{{invoice.totalAmount}}</td>
+                <td>{{invoice.currencyID}}</td>
+                <td><button [routerLink]="['/invoice-item', {invoiceID:invoice.invoiceID}]">Display Items</button></td>
+                <td><button (click)="EditInvoice(i)">Edit</button></td>
+                <app-updateinvoice *ngIf="updateInvoiceFlg[i]"[updInvoice]="invoiceInst"></app-updateinvoice>
+            </tr>
+        </tbody>
+</table>
+</div>
+<div class="button-container">
+<button (click)="openAddInvoice()">Add Invoice</button>
+<app-addinvoice *ngIf="insertInvoice" [p_title]='title'></app-addinvoice>
+</div>
+
+

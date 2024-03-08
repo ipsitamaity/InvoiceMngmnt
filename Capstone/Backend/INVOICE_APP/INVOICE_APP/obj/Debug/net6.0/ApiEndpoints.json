@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "INVOICE_APP.Controllers.AuthController",
+    "Method": "Post",
+    "RelativePath": "api/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "INVOICE_APP.Models.Users",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "INVOICE_APP.Controllers.CCController",
     "Method": "get",
     "RelativePath": "api/CC",

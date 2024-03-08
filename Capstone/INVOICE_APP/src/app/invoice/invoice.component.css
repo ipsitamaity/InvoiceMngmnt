@@ -1,0 +1,40 @@
+.caption-center {
+    text-align: center;
+}
+caption {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.table-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+  }
+  
+  table {
+    margin: 0 auto;
+  }
+  th, td {
+    border: 1px solid #ccc; /* Add a thin border to the cells */
+    padding: 8px; /* Provide padding for content within cells */
+    text-align: center;
+}
+th {
+    color: #555;
+    background-color: #f0f0f0;
+}
+
+td {
+    color: #333;
+    background-color: #85abc5;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjust the value based on your desired height */
+  }
+ 
+  
+  

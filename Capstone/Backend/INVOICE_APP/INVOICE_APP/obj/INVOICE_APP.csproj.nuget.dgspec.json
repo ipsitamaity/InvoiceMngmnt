@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IPMAITY\\source\\repos\\INVOICE_APP\\INVOICE_APP\\INVOICE_APP.csproj": {}
+    "C:\\Users\\IPMAITY\\Documents\\Capstone\\Backend\\INVOICE_APP\\INVOICE_APP\\INVOICE_APP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IPMAITY\\source\\repos\\INVOICE_APP\\INVOICE_APP\\INVOICE_APP.csproj": {
+    "C:\\Users\\IPMAITY\\Documents\\Capstone\\Backend\\INVOICE_APP\\INVOICE_APP\\INVOICE_APP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IPMAITY\\source\\repos\\INVOICE_APP\\INVOICE_APP\\INVOICE_APP.csproj",
+        "projectUniqueName": "C:\\Users\\IPMAITY\\Documents\\Capstone\\Backend\\INVOICE_APP\\INVOICE_APP\\INVOICE_APP.csproj",
         "projectName": "INVOICE_APP",
-        "projectPath": "C:\\Users\\IPMAITY\\source\\repos\\INVOICE_APP\\INVOICE_APP\\INVOICE_APP.csproj",
+        "projectPath": "C:\\Users\\IPMAITY\\Documents\\Capstone\\Backend\\INVOICE_APP\\INVOICE_APP\\INVOICE_APP.csproj",
         "packagesPath": "C:\\Users\\IPMAITY\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IPMAITY\\source\\repos\\INVOICE_APP\\INVOICE_APP\\obj\\",
+        "outputPath": "C:\\Users\\IPMAITY\\Documents\\Capstone\\Backend\\INVOICE_APP\\INVOICE_APP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\IPMAITY\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.AspNetCore.Cors": {
               "target": "Package",
               "version": "[2.2.0, )"

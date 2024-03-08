@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\INVOICE_APP",
+    "\\INVOICE_APP\\Controllers",
+    "\\INVOICE_APP\\Models",
+    "\\INVOICE_APP\\Properties",
+    "\\INVOICE_APP\\Repository",
+    "\\INVOICE_APP\\Services"
+  ],
+  "SelectedNode": "\\INVOICE_APP\\Controllers\\InvoicesController.cs",
+  "PreviewInSolutionExplorer": false
+}

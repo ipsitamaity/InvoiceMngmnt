@@ -1,0 +1,31 @@
+<nav>
+  <button (click)="toggleForm()">Tax Calculator</button>
+  <button (click)="toggleFormCC()">Currency Convertor</button>
+
+</nav>
+<!--<div class="">
+  <app-taxcalc *ngIf="showForm"></app-taxcalc>
+</div>-->
+
+<div *ngIf="showForm" class="modal" [ngClass]="{'show': showForm}">
+  <div class="modal-content">
+    <input type="text" [(ngModel)]="taxType" placeholder="Tax Type">
+    <input type="number" [(ngModel)]="inpAmount" placeholder="Amount">
+    <button (click)="TaxCalc()">Calculate</button>
+    <div *ngIf="payAmount !==null">
+      <p>Amount To Pay: {{ payAmount }}</p>
+    </div>
+    <button (click)="toggleForm()" class="close-button">Close</button>
+  </div>
+</div>
+<div *ngIf="showFormCC" class="modalCC" [ngClass]="{'show': showFormCC}">
+  <div class="modalCC-content">
+    <input type="text" [(ngModel)]="currType" placeholder="Currency Type">
+    <input type="number" [(ngModel)]="inpCCAmount" placeholder="Amount in USD">
+    <button (click)="CurrConvCalc()">Convert</button>
+    <div *ngIf="ccAmount !==null">
+      <p>Converted Amount: {{currType}} {{ ccAmount }}</p>
+    </div>
+    <button (click)="toggleFormCC()" class="close-button">Close</button>
+  </div>
+</div>
