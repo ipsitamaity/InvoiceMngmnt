@@ -1,0 +1,42 @@
+<div class="AddInvoice" *ngIf="showAddInvoice">
+<form (ngSubmit)="onSubmit()" class="horizontal-form">
+    <div>
+      <label>Invoice Number:</label>
+      <input type="text" name="invoiceNumber" [(ngModel)]="invoice.invoiceNumber" required>
+    </div>
+    <div>
+      <label>Invoice Date:</label>
+      <input type="date" name="invoiceDate" [(ngModel)]="invoice.invoiceDate" required>
+    </div>
+    <div>
+      <label>Vendor ID:</label>
+      <input type="number" name="vendorID" [(ngModel)]="invoice.vendorID" required>
+    </div>
+    <div>
+      <label>Customer ID:</label>
+      <input type="number" name="customerId" [(ngModel)]="invoice.customerID" required>
+    </div>
+    <div>
+      <label for="category">Category:</label>
+      <select id="category" name="category" [(ngModel)]="invoice.category" required>
+        <option value="">Select an option</option>
+        <option value="Utilities">Utilities</option>
+        <option value="Rent">Rent</option>
+        <option value="Supplies">Supplies</option>
+        <option value="Supplies">Unkown</option>
+      </select>
+    </div>
+    <div>
+      <label>Total Amount:</label>
+      <input type="number" name="totalAmount" [(ngModel)]="invoice.totalAmount" required>
+    </div>
+    <div>
+      <label>Currency ID:</label>
+      <input type="number" name="currencyID" [(ngModel)]="invoice.currencyID" required>
+    </div>
+    <div class="button-container">
+    <button type="submit">Submit</button>
+    </div>
+  </form>
+    <button (click)="closeAddInvoice()">Close</button>
+  </div>

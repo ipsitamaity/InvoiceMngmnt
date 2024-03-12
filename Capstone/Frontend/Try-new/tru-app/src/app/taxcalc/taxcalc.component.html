@@ -1,0 +1,8 @@
+<div *ngIf="showForm">
+    <input type="text" [(ngModel)]="taxType" placeholder="Tax Type">
+    <input type="number" [(ngModel)]="inpAmount" placeholder="Amount">
+    <button (click)="TaxCalc()">Calculate</button>
+    <div *ngIf="payAmount !==null">
+      <p>Amount To Pay: {{ payAmount }}</p>
+    </div>
+  </div>

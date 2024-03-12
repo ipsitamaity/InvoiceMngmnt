@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8G/uf0JIkLGQmWnLQ2QonxGGRW3i1vOyhdMZiF65eqqeGwxaWUxjJtTr9krhEb9nx5FZYZzaHgEP8NmusaEWLg==",
+  "dgSpecHash": "V75YbqUZI3J8sI9C61GDEQScGjwmgbFSkII7I43p4myseyjKdlD8ch9eauECnl2qUkAYtYIWX38V2SKqms93rQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\IPMAITY\\Documents\\Capstone\\Backend\\INVOICE_APP\\INVOICE_APP\\INVOICE_APP.csproj",
+  "projectFilePath": "C:\\Users\\IPMAITY\\Documents\\GitHub\\InvoiceMngmnt\\Capstone\\Backend\\INVOICE_APP\\INVOICE_APP\\INVOICE_APP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\IPMAITY\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.0\\microsoft.aspnetcore.authentication.jwtbearer.6.0.0.nupkg.sha512",
     "C:\\Users\\IPMAITY\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",

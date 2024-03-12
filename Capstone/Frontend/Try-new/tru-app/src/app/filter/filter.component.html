@@ -1,0 +1,9 @@
+
+<select [(ngModel)]="selectedFilter">
+    <option value="">All</option>
+    <option value="Utilities">Utilities</option>
+    <option value="Rent">Rent</option>
+    <option value="Supplies">Supplies</option>
+    <!-- Add more options as needed -->
+  </select>
+  <button (click)="applyFilter()">Apply Filter</button>
